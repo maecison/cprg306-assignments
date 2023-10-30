@@ -38,7 +38,7 @@ const MealIdeas = ({ingredients}) => {
         if (newMeals[mealIndex].details) {
             newMeals[mealIndex].details = null;
         } else {
-            newMeals[mealIndex].details = await fetchMealDetails(mealId); // Fetch and display the details
+            newMeals[mealIndex].details = await fetchMealDetails(mealId);
         }
     
         setMeals(newMeals);
