@@ -33,6 +33,9 @@ export default function Home() {
         <p className="mb-2 text-center">
           <Link href="/week8" className="text-blue-500 hover:text-blue-700">Week 8</Link>
         </p>
+        <p className="mb-2 text-center">
+          <Link href="/week10" className="text-blue-500 hover:text-blue-700">Week 10</Link>
+        </p>
       </div>
 
     </main>
